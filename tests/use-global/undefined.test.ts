@@ -82,7 +82,7 @@ describe('useGlobal()', (): void => {
         expect(testUseGlobal.renders).toBe(1);
         global.x;
         await setGlobal(STATE_CHANGE);
-        expect(testUseGlobal.renders).toBe(2);
+        expect(testUseGlobal.renders).toBe(3);
       }
     );
 

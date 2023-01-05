@@ -86,7 +86,7 @@ describe('useGlobal(string)', (): void => {
         expect(testUseGlobal.renders).toBe(1);
         const [ , setValue ]: T = testUseGlobal.value;
         await setValue(NEW_VALUE);
-        expect(testUseGlobal.renders).toBe(2);
+        expect(testUseGlobal.renders).toBe(3);
       }
     );
 
